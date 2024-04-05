@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Noto+Serif:wght@300&family=PT+Serif&display=swap");
+.slideShow {
+  width: 100%;
+  height: 88vh;
+  /* height: 60vh; */
+}
+.slideShow img {
+  width: 100%;
+  height: 100%;
+}
+
+/* FullwordStem  */
+.controllfullword {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  background-color: rgb(0, 0, 0);
+}
+.fullwordStem {
+  width: 80%;
+  display: flex;
+}
+.wordBox {
+  width: 25%;
+  justify-content: space-evenly;
+}
+.ShowIcon {
+  width: 30%;
+  height: 6rem;
+  font-size: 3rem;
+  color: white;
+  float: left;
+  padding: 0px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShowText {
+  width: 70%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.IconsScient {
+  width: 100%;
+  height: 100%;
+}
+.ShowText h3 {
+  margin: 6px 0px 0px 0px;
+  font-family: "Battambang";
+  font-size: 1.6rem;
+  color: white;
+}
+.ShowText h4 {
+  color: white;
+}
+.ColorBlue {
+  color: blue;
+}
+.ColorOrange {
+  color: orange;
+}
+.ColorRed {
+  color: red;
+}
+.ColorGreen {
+  color: green;
+}
+.ShowText h4 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Tittle_Center  */
+
+.Tittle_Center {
+  width: 100%;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tittle_Center h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+/* controll_course  */
+.controll_course {
+  width: 100%;
+}
+.controll_courseheader {
+  width: 100%;
+  display: flex;
+}
+.header_course {
+  width: 25%;
+  border-radius: 3rem;
+  margin: 0.7rem;
+  padding: 0.3rem;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.header_course:hover {
+  background-color: skyblue;
+  cursor: pointer;
+}
+.header_course img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.header_course h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+/* Our Action Student  */
+
+.control_student {
+  width: 100%;
+  /* padding: 1rem; */
+  display: flex;
+  justify-content: space-around;
+}
+.header_student {
+  width: 25%;
+  height: 16.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  /* background-color: black; */
+  box-shadow: 0 0 5px black;
+}
+.studentPhoto {
+  width: 100%;
+  height: 70%;
+  /* background-color: blanchedalmond; */
+}
+.studentPhoto img {
+  width: 100%;
+  height: 100%;
+}
+.studentTittle {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 30%;
+  /* background-color: blue; */
+  padding: 5px;
+  overflow: hidden;
+}
+.studentTittle h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+/* controll_teacher */
+
+.controll_teacher {
+  width: 100%;
+  /* height: 37rem; */
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_teacher {
+  width: 27%;
+  height: 100%;
+  box-shadow: 0 0 10px black;
+}
+.teacher_round {
+  border-radius: 50%;
+}
+.teacherPicture {
+  padding: 1rem;
+  width: 100%;
+  height: 75%;
+  overflow: hidden;
+}
+.teacherPicture img {
+  width: 100%;
+  height: 100%;
+}
+.teacherPicture img:hover {
+  transform: scale(105%, 105%);
+  transition: 0.3s;
+}
+.teacherTittle {
+  padding: 1rem;
+  width: 100%;
+  height: 25%;
+  background-color: white;
+}
+.flexculomn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* controll_social */
+
+.controll_social {
+  width: 100%;
+  /* height: 35rem; */
+  display: flex;
+  padding: 1rem;
+  /* background-color: cadetblue; */
+}
+.headerSocialpicture {
+  width: 60%;
+  height: 100%;
+  /* background-color: black; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.headerSocialparagrap {
+  width: 40%;
+  height: 100%;
+  padding: 0rem 1rem 0rem 1rem;
+  /* background-color: black; */
+}
+.social_box {
+  width: 50%;
+  height: 20rem;
+  padding: 0.2rem;
+  box-shadow: 0 0 10px white;
+  /* background-color: red; */
+}
+.social_box img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 500px) {
+  /* slideshow  */
+
+  .slideShow {
+    width: 100%;
+    height: 14rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+
+  /* STEM  */
+  .controllfullword {
+    margin: 0;
+  }
+  .fullwordStem {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .wordBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ShowIcon {
+    width: 30%;
+    height: 2rem;
+    font-size: 1rem;
+    color: white;
+    float: left;
+    padding: 0px;
+  }
+  .ShowText h3 {
+    font-size: 1rem;
+  }
+  .ShowText h4 {
+    font-size: 1rem;
+  }
+
+  /* Course  */
+
+  .Tittle_Center {
+    padding: 0rem;
+  }
+  .Tittle_Center h3 {
+    font-size: 1.5rem;
+  }
+  .controll_courseheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .header_course {
+    width: 48%;
+    border-radius: 3rem;
+    margin: 0.2rem;
+    padding: 0rem;
+    background-color: white;
+  }
+  .header_course h3 {
+    font-size: 0.8rem;
+  }
+  .header_course img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /* Student  */
+
+  .control_student {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_student {
+    width: 45%;
+    height: 12rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+  .studentPhoto {
+    width: 100%;
+    height: 60%;
+  }
+  .studentTittle {
+    height: 40%;
+    padding: 0px;
+  }
+  .studentTittle h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Teacher  */
+
+  .controll_teacher {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_teacher {
+    width: 48%;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+  }
+  .teacherTittle {
+    padding: 0.5rem;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+  }
+  .teacherTittle h3 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .teacherPicture {
+    padding: 0.5rem;
+  }
+  /* Socail Activities */
+  .controll_social,
+  .headerSocialpicture {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headerSocialpicture,
+  .headerSocialparagrap {
+    padding: 0;
+    width: 100%;
+  }
+  .social_box {
+    height: 13rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  /* slideshow  */
+  .slideShow {
+    width: 100%;
+    height: 25rem;
+    padding: 0.5rem;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+
+  /* STEM  */
+  .controllfullword {
+    margin: 0;
+  }
+  .fullwordStem {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .wordBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ShowIcon {
+    width: 30%;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: white;
+    float: left;
+    padding: 0px;
+  }
+  .ShowText h3 {
+    font-size: 1.4rem;
+  }
+  .ShowText h4 {
+    font-size: 1.4rem;
+  }
+
+  /* Course  */
+
+  .Tittle_Center {
+    padding: 0rem;
+  }
+  .Tittle_Center h3 {
+    font-size: 1.6rem;
+  }
+  .controll_courseheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .header_course {
+    width: 48.5%;
+    border-radius: 3rem;
+    margin: 0.2rem;
+    padding: 0rem;
+    background-color: white;
+  }
+  .header_course h3 {
+    font-size: 1.2rem;
+  }
+  .header_course img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Student  */
+
+  .control_student {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_student {
+    width: 48%;
+    height: 25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0rem 0rem 0rem;
+  }
+  .studentPhoto {
+    width: 100%;
+    height: 60%;
+  }
+  .studentTittle {
+    height: 40%;
+    padding: 0px;
+  }
+  .studentTittle h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Teacher  */
+
+  .controll_teacher {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header_teacher {
+    width: 48%;
+    height: 100%;
+    box-shadow: 0 0 10px black;
+  }
+  .teacherTittle {
+    padding: 0.5rem;
+    width: 100%;
+    height: 25%;
+    background-color: white;
+  }
+  .teacherTittle h3 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .teacherPicture {
+    padding: 0.5rem;
+  }
+  /* Socail Activities */
+  .controll_social,
+  .headerSocialpicture {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .headerSocialpicture,
+  .headerSocialparagrap {
+    padding: 0;
+    width: 100%;
+  }
+  .social_box {
+    height: 20rem;
+  }
+}
